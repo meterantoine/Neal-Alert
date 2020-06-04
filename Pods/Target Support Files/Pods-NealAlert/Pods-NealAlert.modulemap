@@ -1,0 +1,6 @@
+framework module Pods_NealAlert {
+  umbrella header "Pods-NealAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

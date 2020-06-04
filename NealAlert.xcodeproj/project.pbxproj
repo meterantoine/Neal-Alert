@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC2E8A7FE6BA76C8767BFC5 /* Pods_NealAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3BA0A11D62BFE9DF5AF6D3 /* Pods_NealAlert.framework */; };
 		67E5479424806E1D000CBF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5479324806E1D000CBF07 /* AppDelegate.swift */; };
 		67E5479624806E1D000CBF07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5479524806E1D000CBF07 /* SceneDelegate.swift */; };
-		67E5479824806E1D000CBF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5479724806E1D000CBF07 /* ViewController.swift */; };
 		67E5479B24806E1D000CBF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E5479924806E1D000CBF07 /* Main.storyboard */; };
 		67E5479D24806E24000CBF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E5479C24806E24000CBF07 /* Assets.xcassets */; };
 		67E547A024806E24000CBF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E5479E24806E24000CBF07 /* LaunchScreen.storyboard */; };
+		67E547AA24806EAB000CBF07 /* NealAlertModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67E547A824806EAB000CBF07 /* NealAlertModel.xcdatamodeld */; };
+		67E547AC24806F08000CBF07 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547AB24806F08000CBF07 /* CoreDataManager.swift */; };
+		67E547B22480BC4D000CBF07 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547B12480BC4D000CBF07 /* ContactsController.swift */; };
+		67E547B4248184A4000CBF07 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547B3248184A4000CBF07 /* ContactsCell.swift */; };
+		67E547B624820B56000CBF07 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547B524820B56000CBF07 /* AddContactController.swift */; };
+		67E547B924820BC2000CBF07 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547B824820BC2000CBF07 /* extensions.swift */; };
+		67E547BC2482F767000CBF07 /* SendMessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547BB2482F767000CBF07 /* SendMessageService.swift */; };
+		67E547C02482F832000CBF07 /* MessageEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547BF2482F832000CBF07 /* MessageEndpoint.swift */; };
+		67E547C224831DB5000CBF07 /* TwilioInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547C124831DB5000CBF07 /* TwilioInfoModel.swift */; };
+		67E547C524842605000CBF07 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547C424842605000CBF07 /* ForgotPasswordController.swift */; };
+		67E547C72484261E000CBF07 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547C62484261E000CBF07 /* RegistrationController.swift */; };
+		67E547C924842635000CBF07 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547C824842635000CBF07 /* LoginController.swift */; };
+		67E547CB24842AC0000CBF07 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547CA24842ABF000CBF07 /* Utilities.swift */; };
+		67E547CD24844769000CBF07 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E547CC24844769000CBF07 /* AuthButton.swift */; };
+		67E547CF2485A065000CBF07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67E547CE2485A065000CBF07 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3BA0A11D62BFE9DF5AF6D3 /* Pods_NealAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NealAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0C5957B8CB3359DDBC1EAD /* Pods-NealAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NealAlert.release.xcconfig"; path = "Target Support Files/Pods-NealAlert/Pods-NealAlert.release.xcconfig"; sourceTree = "<group>"; };
 		67E5479024806E1D000CBF07 /* NealAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NealAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E5479324806E1D000CBF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E5479524806E1D000CBF07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67E5479724806E1D000CBF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67E5479A24806E1D000CBF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67E5479C24806E24000CBF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E5479F24806E24000CBF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E547A124806E24000CBF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E547A924806EAB000CBF07 /* NealAlertModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NealAlertModel.xcdatamodel; sourceTree = "<group>"; };
+		67E547AB24806F08000CBF07 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		67E547B12480BC4D000CBF07 /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
+		67E547B3248184A4000CBF07 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		67E547B524820B56000CBF07 /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
+		67E547B824820BC2000CBF07 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		67E547BB2482F767000CBF07 /* SendMessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageService.swift; sourceTree = "<group>"; };
+		67E547BF2482F832000CBF07 /* MessageEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEndpoint.swift; sourceTree = "<group>"; };
+		67E547C124831DB5000CBF07 /* TwilioInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioInfoModel.swift; sourceTree = "<group>"; };
+		67E547C424842605000CBF07 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		67E547C62484261E000CBF07 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		67E547C824842635000CBF07 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		67E547CA24842ABF000CBF07 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		67E547CC24844769000CBF07 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		67E547CE2485A065000CBF07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		858D9E856A35C87002FC4482 /* Pods-NealAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NealAlert.debug.xcconfig"; path = "Target Support Files/Pods-NealAlert/Pods-NealAlert.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC2E8A7FE6BA76C8767BFC5 /* Pods_NealAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EE71E2FD8D39050A0951A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BA0A11D62BFE9DF5AF6D3 /* Pods_NealAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		67E5478724806E1C000CBF07 = {
 			isa = PBXGroup;
 			children = (
 				67E5479224806E1D000CBF07 /* NealAlert */,
 				67E5479124806E1D000CBF07 /* Products */,
+				E974303059A00AA5437BEA28 /* Pods */,
+				3EE71E2FD8D39050A0951A8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,95 @@
 		67E5479224806E1D000CBF07 /* NealAlert */ = {
 			isa = PBXGroup;
 			children = (
+				67E547B02480BBF2000CBF07 /* Model */,
+				67E547AE2480BBDC000CBF07 /* View */,
+				67E547AD2480BBD8000CBF07 /* Controller */,
+				67E547BA2482F6C0000CBF07 /* Service */,
+				67E547B724820B9E000CBF07 /* Utils */,
+				67E547A724806E34000CBF07 /* CoreData */,
 				67E5479324806E1D000CBF07 /* AppDelegate.swift */,
 				67E5479524806E1D000CBF07 /* SceneDelegate.swift */,
-				67E5479724806E1D000CBF07 /* ViewController.swift */,
 				67E5479924806E1D000CBF07 /* Main.storyboard */,
 				67E5479C24806E24000CBF07 /* Assets.xcassets */,
 				67E5479E24806E24000CBF07 /* LaunchScreen.storyboard */,
 				67E547A124806E24000CBF07 /* Info.plist */,
+				67E547CE2485A065000CBF07 /* GoogleService-Info.plist */,
 			);
 			path = NealAlert;
+			sourceTree = "<group>";
+		};
+		67E547A724806E34000CBF07 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				67E547A824806EAB000CBF07 /* NealAlertModel.xcdatamodeld */,
+				67E547AB24806F08000CBF07 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		67E547AD2480BBD8000CBF07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				67E547C3248425C0000CBF07 /* Authentication */,
+				67E547B12480BC4D000CBF07 /* ContactsController.swift */,
+				67E547B524820B56000CBF07 /* AddContactController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		67E547AE2480BBDC000CBF07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67E547B3248184A4000CBF07 /* ContactsCell.swift */,
+				67E547CC24844769000CBF07 /* AuthButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67E547B02480BBF2000CBF07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67E547BF2482F832000CBF07 /* MessageEndpoint.swift */,
+				67E547C124831DB5000CBF07 /* TwilioInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67E547B724820B9E000CBF07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				67E547B824820BC2000CBF07 /* extensions.swift */,
+				67E547CA24842ABF000CBF07 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		67E547BA2482F6C0000CBF07 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				67E547BB2482F767000CBF07 /* SendMessageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		67E547C3248425C0000CBF07 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				67E547C824842635000CBF07 /* LoginController.swift */,
+				67E547C62484261E000CBF07 /* RegistrationController.swift */,
+				67E547C424842605000CBF07 /* ForgotPasswordController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E974303059A00AA5437BEA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				858D9E856A35C87002FC4482 /* Pods-NealAlert.debug.xcconfig */,
+				5C0C5957B8CB3359DDBC1EAD /* Pods-NealAlert.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67E547A424806E24000CBF07 /* Build configuration list for PBXNativeTarget "NealAlert" */;
 			buildPhases = (
+				F16755E2D9E8FED8808168A1 /* [CP] Check Pods Manifest.lock */,
 				67E5478C24806E1C000CBF07 /* Sources */,
 				67E5478D24806E1C000CBF07 /* Frameworks */,
 				67E5478E24806E1C000CBF07 /* Resources */,
+				0E6BC53DCBDF764B5BA20E48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67E547A024806E24000CBF07 /* LaunchScreen.storyboard in Resources */,
+				67E547CF2485A065000CBF07 /* GoogleService-Info.plist in Resources */,
 				67E5479D24806E24000CBF07 /* Assets.xcassets in Resources */,
 				67E5479B24806E1D000CBF07 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +259,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E6BC53DCBDF764B5BA20E48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NealAlert/Pods-NealAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NealAlert/Pods-NealAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NealAlert/Pods-NealAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16755E2D9E8FED8808168A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NealAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67E5478C24806E1C000CBF07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E5479824806E1D000CBF07 /* ViewController.swift in Sources */,
+				67E547AA24806EAB000CBF07 /* NealAlertModel.xcdatamodeld in Sources */,
+				67E547C524842605000CBF07 /* ForgotPasswordController.swift in Sources */,
+				67E547B22480BC4D000CBF07 /* ContactsController.swift in Sources */,
+				67E547CB24842AC0000CBF07 /* Utilities.swift in Sources */,
+				67E547B4248184A4000CBF07 /* ContactsCell.swift in Sources */,
+				67E547B924820BC2000CBF07 /* extensions.swift in Sources */,
+				67E547C224831DB5000CBF07 /* TwilioInfoModel.swift in Sources */,
+				67E547B624820B56000CBF07 /* AddContactController.swift in Sources */,
+				67E547BC2482F767000CBF07 /* SendMessageService.swift in Sources */,
+				67E547CD24844769000CBF07 /* AuthButton.swift in Sources */,
 				67E5479424806E1D000CBF07 /* AppDelegate.swift in Sources */,
+				67E547AC24806F08000CBF07 /* CoreDataManager.swift in Sources */,
 				67E5479624806E1D000CBF07 /* SceneDelegate.swift in Sources */,
+				67E547C02482F832000CBF07 /* MessageEndpoint.swift in Sources */,
+				67E547C72484261E000CBF07 /* RegistrationController.swift in Sources */,
+				67E547C924842635000CBF07 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +463,13 @@
 		};
 		67E547A524806E24000CBF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858D9E856A35C87002FC4482 /* Pods-NealAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H8VGPKG6U;
 				INFOPLIST_FILE = NealAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +477,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AntoinePerry.NealAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		67E547A624806E24000CBF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0C5957B8CB3359DDBC1EAD /* Pods-NealAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H8VGPKG6U;
 				INFOPLIST_FILE = NealAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AntoinePerry.NealAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,6 +523,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67E547A824806EAB000CBF07 /* NealAlertModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67E547A924806EAB000CBF07 /* NealAlertModel.xcdatamodel */,
+			);
+			currentVersion = 67E547A924806EAB000CBF07 /* NealAlertModel.xcdatamodel */;
+			path = NealAlertModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67E5478824806E1C000CBF07 /* Project object */;
 }
